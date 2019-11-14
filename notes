@@ -1,0 +1,29 @@
+└── src
+    ├── components
+    │   ├── App
+    │   ├── ArticleListItem
+    │   ├── CommentForm
+    │   ├── Header
+    │   ├── LoginForm
+    │   ├── RegistrationForm
+    │   ├── StyleIcon
+    │   └── Utils
+    ├── contexts
+    ├── routes
+    │   ├── ArticleListPage
+    │   ├── ArticlePage
+    │   ├── LoginPage
+    │   ├── NotFoundPage
+    │   └── RegistrationPage
+    └── services
+    
+    ROUTES: 
+    http://localhost:3000/ - The article list page
+    http://localhost:3000/article/:articleId - The article page
+    http://localhost:3000/login - The login page
+    http://localhost:3000/register - The registration page
+
+
+    NOTES: 
+    1. What's the TOKEN_KEY config setting for in ./src/config.js?
+
